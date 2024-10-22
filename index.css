@@ -1,0 +1,51 @@
+body{
+    background-color: rgba(236, 212, 132, 0.209);
+    font-size: 40px;
+    margin: 0px;
+    text-align: center;
+}
+img{
+    width: 50vw;
+    width: 50vw;
+    border: black;
+    border-radius: 100% 
+}
+
+h1{
+    font-style: oblique;
+    padding: 20px;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    text-align: center;
+    font-family:"Marck Script"
+}
+
+
+.greener{
+    text-align: center;
+    background-color: rgba(211, 204, 155, 0.115);
+    padding: 25px;
+    margin: 10px;
+    /* display: flex; */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tile{
+    /* text-align: center; */
+    /* height: 15vh; */
+    /* width: 15vw; */
+    padding: 3vh;
+    margin: 5vh;
+    transition: all .2s ease-in;
+    background-color: rgba(249, 232, 203, 0.475);
+    flex: 50%;
+}
+.tile:hover{
+    text-align: center;
+    background-color: rgba(152, 152, 56, 0.368);
+    /* padding: 5px; */
+    transform: scale(1.1);
+}

@@ -1,0 +1,62 @@
+body{
+    background-color: rgba(236, 212, 132, 0.209);
+    font-size: 40px;
+    margin: 0px;
+    text-align: center;
+}
+
+h1{
+    font-style: oblique;
+    padding: 20px;
+    padding-bottom: -20px;
+    text-align: center;
+}
+
+
+.greener{
+    text-align: center;
+    background-color: rgba(211, 204, 155, 0.115);
+    margin: 10px;
+    padding: 25px;
+    /* display: flex; */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+img{
+    width: 12vh;
+}
+.tile{
+    /* text-align: center; */
+    
+    border:none;
+    padding: 3vh;
+    margin: 5vh;
+    transition: all .2s ease-in;
+    background-color: rgba(249, 232, 203, 0.475);
+    flex: 50%;
+}
+.tile:hover{
+    text-align: center;
+    background-color: rgba(152, 152, 56, 0.368);
+    /* padding: 5px; */
+    transform: scale(1.1);
+}
+
+.return1{
+    background-color: rgba(97, 77, 28, 0.209);
+    
+    border: none;
+    transition: all .2s ease-in;
+    font-family: "Copperplate";
+    padding:2vh;
+    content: "hello";
+
+}
+.return1:hover{
+    text-align: center;
+    background-color: rgba(152, 152, 56, 0.41);
+    transform: scale(1.1px);
+    padding:2.5vh
+}
